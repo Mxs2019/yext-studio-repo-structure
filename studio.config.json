@@ -1,0 +1,27 @@
+{
+    
+    "cards": [
+        "./studio/cards",
+        "./node_modules/@yext/studio/cards"
+    ],
+    "layouts": [
+        "./studio/layouts",
+        "./node_modules/@yext/studio/layouts"
+    ],
+    "formatters": [
+        "./studio/formatters",
+        "./node_modules/@yext/studio/formatters"
+    ],
+    "globalComponents": [
+        "./studio/globalComponents",
+        "./node_modules/@yext/studio/globalComponents"
+    ],
+    "pageComponents": [
+        "./studio/pageComponents",
+        "./node_modules/@yext/studio/pageComponents"
+    ],
+    "pages": [
+        "./studio/pages"        
+    ],
+    "settings": "./studio/settings"
+}

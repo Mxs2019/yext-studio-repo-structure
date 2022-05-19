@@ -1,0 +1,45 @@
+
+{
+    "id": "locations",
+    "name": "Locations",
+    "layoutId": "standard",
+    "type": "ENTITY_TEMPLATE",
+    "entityType": "locations",
+    "blocks": [
+      {
+        "id": "three-column",
+        "params": {
+          "firstColumn": {
+              "value": "Column 1"
+            },
+          "secondColumn": {
+            "value": "Column 2"
+          },
+          "thirdColumn": {
+            "value": "Column 3"
+          }
+        }
+      },
+      {
+        "id": "rich-text",
+        "params": {
+          "title": {
+              "value": "[[title]]",
+              "formatterId": "UPPERCASE"
+          },
+          "richText": {
+              "value": "Rich text goes here\n\nEntity ID: [[id]]"              
+          }
+        }
+      },
+      {
+        "id": "headline",
+        "params": {
+          "headline": {
+              "value": "This the is the address: [[address]]"
+          }
+        }
+      }
+    ],
+    "slug": "slug"
+  }
